@@ -76,7 +76,8 @@ class _MyAppState extends State<MyApp> {
                 ? Quiz(
                     questions: _questions,
                     questionIndex: _questionIndex,
-                    answerQuestion: _answerQuestion)
+                    answerQuestion: _answerQuestion,
+                  )
                 : Result(_totalScore, _restartQuiz, _questions.length)));
   }
 }

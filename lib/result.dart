@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_complete_guide/question.dart';
 
 class Result extends StatelessWidget {
   final int resultScore;
