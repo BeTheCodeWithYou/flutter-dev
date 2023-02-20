@@ -15,7 +15,7 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   final _questions = const [
     {
-      'questionText': 'Which of the following is a not a greenhouse gas?',
+      'questionText': 'Which of the following is not a greenhouse gas?',
       'answers': [
         {'text': 'Carbon dioxide', 'score': 0},
         {'text': 'Methane', 'score': 0},
